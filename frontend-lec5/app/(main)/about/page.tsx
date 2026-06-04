@@ -10,7 +10,9 @@ const AboutPage = () => {
         query: {name:'test'}
       }} >Go to Contact</Link>
       <Link href="/products/1">Go to Product</Link>
-      {/* <Image src="/image.svg" width={200} height={200} alt='Picture of the author'/> */}
+      <Image src="/image.svg" width={200} height={200} alt='Picture of the author'/>
+      <Image src="https://chaicode.com/assets/white-1-CYshgcRl.webp" width={200} height={200} alt='Picture of the author'/>
+      
     </div>
   )
 }
